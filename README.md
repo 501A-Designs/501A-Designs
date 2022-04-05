@@ -1,7 +1,7 @@
-I’m a student in Japan who enjoys design and web development.
-- I’m interested in design & front-end development
-- I’m currently learning Svelte
-- Also love using Firebase & Supabase
+### Hi i'm 501A
+I like designing and building websites.
+- [Portfolio Site](https://501a.netlify.app/)
+- [Zenn](https://zenn.dev/501a)
 
 <!---
 501A-Designs/501A-Designs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
