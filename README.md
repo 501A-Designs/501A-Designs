@@ -1,8 +1,12 @@
 ### Hi i'm 501A
 I like designing and building websites.
 - [Portfolio Site](https://501a.netlify.app/)
-- [Zenn](https://zenn.dev/501a)
-- [Dev.to](https://dev.to/501a)
+- [All my blogs](https://501a-blog.vercel.app/)
+---
+### はじめました、501Aです
+デザインとフロントエンドが大好きな人です。
+- [ポートフォリオサイト](https://501a.netlify.app/)
+- [ブログ](https://501a-blog.vercel.app/)
 
 <!---
 501A-Designs/501A-Designs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
