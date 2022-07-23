@@ -3,7 +3,7 @@ I like designing and building websites.
 - [Portfolio Site](https://501a.netlify.app/)
 - [All my blogs](https://501a-blog.vercel.app/)
 ---
-### はじめました、501Aです
+### はじめまして、501Aです
 デザインとフロントエンドが大好きな人です。
 - [ポートフォリオサイト](https://501a.netlify.app/)
 - [ブログ](https://501a-blog.vercel.app/)
