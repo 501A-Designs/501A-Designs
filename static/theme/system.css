@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: light) {
+  :root{
+    --textColor: rgb(44, 44, 44);
+    --accentColor0: #e3e3e3;
+    --accentColor1: #dbdbdb;
+    --accentColor2: #a4a4a4;
+    --backgroundColor: #f1f1f1;
+  }
+  .profileImg{
+    filter: invert(0.8);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    --textColor: rgb(191, 191, 191);
+    --accentColor0: #353535;
+    --accentColor1: #464646;
+    --accentColor2: #676767;
+    --backgroundColor: rgb(40, 40, 40);
+  }
+  .profileImg{
+    filter: brightness(0.7);
+  }
+}

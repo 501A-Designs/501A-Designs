@@ -1,0 +1,10 @@
+:root{
+  --textColor: rgb(191, 191, 191);
+	--accentColor0: #353535;
+	--accentColor1: #464646;
+	--accentColor2: #676767;
+	--backgroundColor: rgb(40, 40, 40);
+}
+.profileImg{
+    filter: brightness(0.7);
+}

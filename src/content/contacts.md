@@ -1,0 +1,9 @@
+	- [GitHub](https://github.com/501A-Designs) - @501A-Designs
+	- [Twitter](https://twitter.com/501A_Designs) - @501A_Designs
+	- [Instagram](https://www.instagram.com/501a_designs) - @501A_Designs
+	- [YouTube](https://www.youtube.com/channel/UCpEB1T9KuFKExs4ZIGpCIPA) - @501A_Designs
+	- [Product Hunt](https://www.producthunt.com/@501a) - @501A
+	- [Layers](https://layers.to/501a) - @501A
+	- [Zenn](https://deizu.vercel.app) - @501A
+	- [note](https://note.com/501a) - @501A
+	- [dev.to](https://dev.to/501a) - @501A
