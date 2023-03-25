@@ -44,8 +44,8 @@
 <style>
   img{
     margin-left: -15px;
-    width: 110px;
-    height:110px;
+    width: 120px;
+    height:120px;
     transition: 0.5s;
   }
   img:hover{
@@ -60,8 +60,9 @@
     align-items: center;
     margin-bottom: -55px;
   }
+
   a{
-    font-weight: bold;
+    font-weight: 500;
     font-size: large;
     border: none;
     text-decoration: none;
@@ -69,13 +70,13 @@
   }
   a:hover{
     background: transparent;
-    /* text-shadow: 0 0 10px var(--accentColor1); */
+    text-shadow: 0 0 10px var(--accentColor1);
     text-shadow: var(--accentColor1) 1px 0 3px;
   }
   nav{
     display: grid;
     grid-template-columns: 1fr;
-    gap:0.25em;
+    gap:0.3em;
   }
   li{
     text-align: right;
@@ -83,4 +84,4 @@
     list-style-type: none;
     transition: all 0.5s;
   }
-</style>  
+</style>

@@ -55,7 +55,7 @@
 <Footer>
 	{#if slug !== "index"}
 		<div>
-			<a href="/">↩︎ {$language === 'japanese'?'メイン':'Main'}</a>
+			<a href="/">{$language === 'japanese'?'メイン':'Main'}</a>
 			{#if typeof slug === 'number'}
 				<span>
 					 / 
