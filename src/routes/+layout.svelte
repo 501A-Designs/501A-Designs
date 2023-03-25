@@ -24,6 +24,30 @@
 	/>
 </svelte:head>
 
+<MetaTags
+  title="501A"
+	description="Personal portfolio site."
+  openGraph={{
+    images: [
+      {
+        url: '/images/501a-og-image.png',
+        width: 800,
+        height: 600,
+        alt: 'Og Image Alt'
+      },
+    ],
+    site_name: '501A.netlify.app'
+  }}
+  twitter={{
+    handle: '@501A_Designs',
+    cardType: 'summary_large_image',
+    title: '501A Portfolio Site',
+    description: 'Welcome to my space in the internet.',
+    image: '/images/501a-og-image.png',
+    imageAlt: 'Twitter image alt'
+  }}
+/>
+
 <main>
 	<slot />
 </main>

@@ -14,7 +14,7 @@ Deizu is a web application intended for Japanese students & teachers. It enables
 
 SEIRYO GROUND is a platform that showcases places with nature and good services where people can relax. Locations are put in 4 categories and logged in users can write and publish a review on the site to view details about it. (Currently it only Seiryo Ground only supports places within Japan.)
 
-[View App](https://seiryo-ground.vercel.app/)
+<!-- [View App](https://seiryo-ground.vercel.app/) -->
 
 ---
 

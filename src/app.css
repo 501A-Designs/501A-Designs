@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 *{
-	font-family: "Prompt", 'Noto Sans JP', sans-serif;
+	font-family: 'Manrope', 'Noto Sans JP', sans-serif;
 	color: var(--textColor);
 }
 
@@ -52,8 +56,8 @@ a {
 	padding: 0 0.5%;
 	border-radius: 2px;
 
-	-webkit-mask-image: linear-gradient(45deg,var(--accentColor1) 25%,rgba(0,0,0,.2) 50%,var(--accentColor1) 75%);
-	mask-image: linear-gradient(45deg,var(--accentColor1) 25%,rgba(0,0,0,.2) 50%,var(--accentColor1) 75%);
+	-webkit-mask-image: linear-gradient(45deg,yellow 25%,rgba(0,0,0,.2) 50%,yellow 75%);
+	mask-image: linear-gradient(45deg,yellow 25%,rgba(0,0,0,.2) 50%,yellow 75%);
 	-webkit-mask-size: 800%;
 	mask-size: 800%;
 	-webkit-mask-position: 0;
@@ -61,14 +65,14 @@ a {
 }
 
 a:hover{
-	background-color: var(--accentColor1);
 	text-decoration-color: transparent;
-
+	
 	cursor: pointer;
 	transition: mask-position 1s ease,-webkit-mask-position 1s ease;
 	-webkit-mask-position: 120%;
 	mask-position: 120%;
 	opacity: 1;
+	background-color: var(--accentColor1);
 }
 
 ::selection {
