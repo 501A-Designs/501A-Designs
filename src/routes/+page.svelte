@@ -67,6 +67,7 @@
     border: none;
     text-decoration: none;
     white-space: nowrap;
+    cursor: pointer;
   }
   a:hover{
     background: transparent;
@@ -80,7 +81,6 @@
   }
   li{
     text-align: right;
-    cursor:pointer;
     list-style-type: none;
     transition: all 0.5s;
   }
