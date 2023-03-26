@@ -80,6 +80,6 @@
 			{/if}
 		</div>
 		{:else}
-		<span>501A Designs</span>
+		<span style="color: var(--textColor0)">501A Designs</span>
 	{/if}
 </Footer>

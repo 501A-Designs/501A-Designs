@@ -1,6 +1,8 @@
 @media (prefers-color-scheme: light) {
   :root{
-    --textColor: rgb(44, 44, 44);
+    --highlightColor: rgb(154, 255, 164);
+    --textColor0: rgb(44, 44, 44);
+    --textColor1: rgb(128, 128, 128);
     --accentColor0: #e3e3e3;
     --accentColor1: #dbdbdb;
     --accentColor2: #a4a4a4;
@@ -13,11 +15,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root{
-    --textColor: rgb(212, 212, 212);
-    --accentColor0: #353535;
+    --highlightColor: rgb(154, 255, 164);
+    --textColor0: rgb(212, 212, 212);
+    --textColor1: rgb(139, 139, 139);
+    --accentColor0: rgb(45, 45, 45);
     --accentColor1: #464646;
     --accentColor2: #676767;
-    --backgroundColor: rgb(40, 40, 40);
+    --backgroundColor: rgb(28, 28, 28);
   }
   .profileImg{
     filter: brightness(0.85);

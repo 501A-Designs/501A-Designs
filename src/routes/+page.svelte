@@ -62,7 +62,7 @@
   }
 
   a{
-    font-weight: 500;
+    font-weight: bold;
     font-size: large;
     border: none;
     text-decoration: none;

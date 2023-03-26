@@ -1,5 +1,7 @@
 :root{
-	--textColor: rgb(44, 44, 44);
+	--highlightColor: rgb(154, 255, 164);
+	--textColor0: rgb(44, 44, 44);
+	--textColor1: rgb(128, 128, 128);
 	--accentColor0: #e3e3e3;
 	--accentColor1: #dbdbdb;
 	--accentColor2: #a4a4a4;

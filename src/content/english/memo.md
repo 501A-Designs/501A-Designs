@@ -1,28 +1,32 @@
 # Memo
 ## What I keep in mind when designing
-When I design websites and graphics, ~~although at times I dont follow my own guidelines~~ there are a few things I try to keep in mind.
+When I design websites and graphics, there are a few things I try to keep in mind ~~at times I don't follow my own guidelines~~.
 
-- Consistency
-- Functional and scalable design
+- Balancing Consistency
+- Functional & Scalable
 - Meaningful
 - Responsive
 
-### Consistency
-Consistency is a necessary element to ensure that users can easily navigate the site, as in UI design there are functional aspects you must consider that are often not considered in logo and poster designs. However, while a strong brand identity is important, too much consistency can make everything look similar and conversely difficult to use, so I think it is important to identify what requires consistancy and vice versa.
+Additionally, I also found the [Web Interface Guidelines](https://rauno.me/interfaces) written by [Rauno Freiberg](https://rauno.me) to be very helpful.
 
-### Functional and scalable design
-This may not apply to graphic design by itself, but I often think that it is difficult to find a balance between what you want to create and what you can create, especially when developing web services and designing the frontend. (What you want to create is what the mockup looks like on Figma, and what you can create is the actual mockup that has been created through code).
-When it comes to code, I often find that the mockup designed in Figma is not optimal because it is difficult to make it into a realistic component, or because of performance degradation, etc., and the final product is often far from what is ideal. In short, this "ideal" and "execution" are not the same thing.
+### Balancing consistency
+Consistency is a necessary element to ensure that users can easily navigate the site. When crafting user interfaces you are not only creating a visual like you do in a logo or poster design, but you must also consider its functional aspects. Too much consistancy however, can make everything look similar and conversely difficult to use. While a strong brand identity is important, its most impotant to be able to identify what requires consistancy and what doesn't.
+
+### Functional & scalable
+It is difficult to find the balance between "What you want to create" and "What you able to create", especially when developing web services and designing the frontend. ("What you want to create" is what the mockup looks like on Figma, and "What you can create" is the actual mockup that has been crafted through code).
+Its easy to craft something in Figma that looks visually appealing however, when its time to transfer that into code, I often find that the mockup previously designed is not realistic / optimal because it completely disregards whether you can isolate it as a component or performance degradation, etc. In return you get a final product that is often far from what is ideal.
 
 In short, I believe that the balance between "ideal" and "execution" is particularly important.
+The following are a few reallife examples that I have faced when crafting UI.
 
 | Ideal | Reality |
 | ------- | ------- |
-| Add texture to surfaces | Poor performance |
+| Adding texture to surfaces | Degrading performance |
 | Adopting a unique design | Difficult to make into a component and scale vertically |
+
 ...etc. There are many things we want to create, but it is difficult to find a balance between what is realistically feasible and what is not.
 
-Therefore, I find it very important to keep this kind of realism in mind to some extent when designing. (I often times just transfer what I have in my head directly into code without using Figma.)
+Therefore, I find it very important to keep this kind of realism in mind to some extent when designing. (Recently I just skip the Figma mockup all together and directly transfer what I have in my head into code.) Not to mention there are also discovers you can make while you are programming the interface. When working with a css `@keyframes` you may encounter an error that happened to look unique and better than what you were imagining in your head. With that, I think there are a multitude of benefits that do come from skipping the mockup process.
 
 ### Meaningful
 I don't believe that something that just looks beautiful is meaningless. I want to design with an eye to what kind of ingenuity can be achieved to capture beauty (I feel a kind of self-satisfaction through this).
