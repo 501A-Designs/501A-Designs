@@ -1,20 +1,24 @@
 @media (prefers-color-scheme: light) {
-  :root{
+  :root {
     --highlightColor: rgb(154, 255, 164);
     --textColor0: rgb(44, 44, 44);
     --textColor1: rgb(128, 128, 128);
     --accentColor0: #e3e3e3;
-    --accentColor1: #dbdbdb;
-    --accentColor2: #a4a4a4;
+    --accentColor1: #d8d8d8;
+    --accentColor2: #d1d1d1;
     --backgroundColor: #f1f1f1;
+    --shadowColor: rgb(235, 235, 235);
   }
-  .profileImg{
+  .profileImg {
     filter: invert(0.8);
+  }
+  svg {
+    filter: brightness(0.85);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  :root{
+  :root {
     --highlightColor: rgb(154, 255, 164);
     --textColor0: rgb(212, 212, 212);
     --textColor1: rgb(139, 139, 139);
@@ -22,8 +26,12 @@
     --accentColor1: #3c3c3c;
     --accentColor2: #676767;
     --backgroundColor: rgb(28, 28, 28);
+    --shadowColor: rgb(24, 24, 24);
   }
-  .profileImg{
+  .profileImg {
     filter: brightness(0.85);
+  }
+  svg {
+    filter: invert(0.8);
   }
 }

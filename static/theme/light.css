@@ -1,12 +1,17 @@
-:root{
-	--highlightColor: rgb(154, 255, 164);
-	--textColor0: rgb(44, 44, 44);
-	--textColor1: rgb(128, 128, 128);
-	--accentColor0: #e3e3e3;
-	--accentColor1: #dbdbdb;
-	--accentColor2: #a4a4a4;
-	--backgroundColor: #f1f1f1;
+:root {
+  --highlightColor: rgb(154, 255, 164);
+  --textColor0: rgb(44, 44, 44);
+  --textColor1: rgb(128, 128, 128);
+  --accentColor0: #e3e3e3;
+  --accentColor1: #d8d8d8;
+  --accentColor2: #d1d1d1;
+  --backgroundColor: #f1f1f1;
+  --shadowColor: rgb(235, 235, 235);
 }
-.profileImg{
-	filter: invert(0.8);
+.profileImg {
+  filter: invert(0.8);
+}
+
+svg {
+  filter: brightness(0.85);
 }

@@ -3,7 +3,7 @@
   <meta name="description" content="I'm a designer & developer" />
 </svelte:head>
 
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import { language } from '../util/store';
   import { setThisRoute } from '../util/setThisRoute';
@@ -12,6 +12,7 @@
 </script>
   
 <section id="mainPage">
+      
   <div class="logoContainer">
     <img 
       src="/images/profileLogo.png"

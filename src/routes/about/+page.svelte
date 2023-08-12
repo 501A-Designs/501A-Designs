@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>About</title>
-	<meta name="Me" content="Things about me." />
+	<meta name="Some information about myself" content="Things about me." />
 </svelte:head>
 
 <script lang="ts">

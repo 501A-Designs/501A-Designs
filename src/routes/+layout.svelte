@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { fade } from 'svelte/transition';
 	import '../app.css';
 	import Footer from '../lib/Footer.svelte';
 	import { currentRoute,theme,language } from '../util/store';
@@ -75,6 +76,9 @@
 					{/if}
 					{#if slug === 'memo'}
 						{$language === 'japanese'?'メモ':'Memo'}
+					{/if}
+					{#if slug === 'card'}
+						{$language === 'japanese'?'名刺':'Card'}
 					{/if}
 				</span>
 			{/if}
